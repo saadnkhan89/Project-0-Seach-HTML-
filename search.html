@@ -3,23 +3,45 @@
     <head>
         <title>Khan Seach</title>
         <style>
+            #list{
+                text-align: right;
+            }
+            
+            #list li{
+                list-style-type: none;
+                display: inline;
+            }
+            
             h1 {
                 text-align: center;
                 font-size: 128px;
             }
             #sbox {
                 text-align: center;
-                size: 128px;
             }
+            #cbox {
+                text-align: center;
+            }
+            .sbox{
+                width: 500px;
+                border-radius: 25px;
+                height: 30px;
+            }
+
         </style>
     </head>
-    <body> 
+    <body>
+        <ul id='list'>
+            <li><a>Image</a></li>
+            <li><a>Advanced</a></li>
+        </ul> 
         <h1>Khan Search</h1>
-        <form id="sbox" action="http://www.google.com/search">
-            <input type="text" name="q">       
+        <form id="sbox" action="https://google.com/search">
+            <input type="text" name="q" class="sbox">       
         </form>
         <form id="cbox">
-            <input type="submit" value="Google Search"> 
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky" 
         </form>
     </body>
 </html>
