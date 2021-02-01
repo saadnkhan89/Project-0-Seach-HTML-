@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced search</title>
+        <style>
+            #intro{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: large;
+            }
+            .phrs{
+                position:absolute;
+                margin-top:10px;
+            }
+            .phrsbox{
+                width: 500px;
+                margin-left: 200px;
+                margin-top: 10px;
+            }
+
+            #mainbtn{
+                background-color:blue;
+                margin-left: 600px;
+                margin-top: 10px;
+                padding: 7px;
+                color:white;
+            }
+        </style> 
+    </head>
+    <body>
+        <h1 id="main"><span style="color:blue;">C</span><span style="color:red;">S</span><span style="color:yellow;">5</span><span style="color:blue;">0</span>
+            <span style="color:green;">S</span><span style="color:red;">e</span><span style="color:blue;">a</span><span style="color:yellow;">r</span><span style="color:green;">c</span><span style="color:red;">h</span>
+        </h1>
+        <p id="intro">Find pages with ...</p>
+        <div id="container">
+            <form action="https://google.com/search">
+                <label class="phrs">all these words:</label> &nbsp;&nbsp;
+                <input type="text" name="as_q" class="phrsbox"><br>
+                <label class="phrs">this exact word or phrase:</label> &nbsp;&nbsp;
+                <input type="text" name="as_epq" class="phrsbox"><br>
+                <label class="phrs">any of these words:</label> &nbsp;&nbsp;
+                <input type="text" name="oq" class="phrsbox"><br>
+                <label class="phrs">none of these words:</label> &nbsp;&nbsp;
+                <input type="text" name="eq" class="phrsbox">
+                <div>
+                    <button id="mainbtn">Advanced Search</button>
+                </div>
+            </form>
+        </div>
+        
+    </body>
+</html>
