@@ -5,44 +5,61 @@
         <style>
             #list{
                 text-align: right;
+
             }
             
             #list li{
                 list-style-type: none;
                 display: inline;
             }
-            
-            h1 {
+
+            #main{
                 text-align: center;
-                font-size: 128px;
+                font-family: 'Roboto',sans-serif;
+                margin: 150px 0px 20px 10px;
+                font-size: 96px;
+                padding: 0;2
             }
+            
+            
             #sbox {
                 text-align: center;
             }
-            #cbox {
+
+            #f1{
                 text-align: center;
+            }    
+
+            .cbox {
+                margin-top: 20px;
+                font-size: 20px;
+                
             }
             .sbox{
-                width: 500px;
+                width: 600px;
                 border-radius: 25px;
                 height: 30px;
             }
-
+             #test{
+                 text-align: center;
+             }
         </style>
     </head>
     <body>
-        <ul id='list'>
+        <h6>Images &nbsp;&nbsp;&nbsp;&nbsp;Advanced</h6>
+        <!-- ul id='list'>
             <li><a>Image</a></li>
             <li><a>Advanced</a></li>
-        </ul> 
-        <h1>Khan Search</h1>
+        < /ul--> 
+        <h1 id="main"><span style="color:blue;">C</span><span style="color:red;">S</span><span style="color:yellow;">5</span><span style="color:blue;">0</span>
+            <span style="color:green;">S</span><span style="color:red;">e</span><span style="color:blue;">a</span><span style="color:yellow;">r</span><span style="color:green;">c</span><span style="color:red;">h</span>
+        </h1>
         <form id="sbox" action="https://google.com/search">
             <input type="text" name="q" class="sbox">  
-            <input type='hidden' name='tbm' value="isch">     
-        </form>
-        <form id="cbox">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky" 
-        </form>
+            <input type='hidden' name='tbm' value="isch">   
+            <div id="test">
+                <input class="cbox" type="submit" value="Google Search">
+                <input class="cbox" type="submit" value="I'm Feeling Lucky">
+            </div>
     </body>
 </html>
