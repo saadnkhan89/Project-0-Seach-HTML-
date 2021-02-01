@@ -24,14 +24,35 @@
                 padding: 7px;
                 color:white;
             }
+
+            #logo{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 25px;
+             }
+
+             #container{
+                display: flex;
+                justify-content: space-between;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 20px;
+             }
         </style> 
     </head>
     <body>
-        <h1 id="main"><span style="color:blue;">C</span><span style="color:red;">S</span><span style="color:yellow;">5</span><span style="color:blue;">0</span>
-            <span style="color:green;">S</span><span style="color:red;">e</span><span style="color:blue;">a</span><span style="color:yellow;">r</span><span style="color:green;">c</span><span style="color:red;">h</span>
-        </h1>
-        <p id="intro">Find pages with ...</p>
         <div id="container">
+            <div >
+                <h3 id="logo">
+                    <span style="color:blue;">C</span><span style="color:red;">S</span><span style="color:yellow;">5</span><span style="color:blue;">0</span>  
+                    <span style="color:green;">S</span><span style="color:red;">e</span><span style="color:blue;">a</span><span style="color:yellow;">r</span><span style="color:green;">c</span><span style="color:red;">h</span>
+                </h3>    
+                </div>
+            <div >
+                Search
+            </div>
+        </div>
+
+        <p id="intro">Find pages with ...</p>
+        <div id="mainform">
             <form action="https://google.com/search">
                 <label class="phrs">all these words:</label> &nbsp;&nbsp;
                 <input type="text" name="as_q" class="phrsbox"><br>
