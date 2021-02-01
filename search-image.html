@@ -1,7 +1,7 @@
 <!DOCTYPE html>>
 <html lang="en">
     <head>
-        <title>Khan Seach</title>
+        <title>CS50 Search</title>
         <style>
             #list{
                 text-align: right;
@@ -43,17 +43,26 @@
              #btn{
                  text-align: center;
              }
-             #spage{
-                 text-align: right;
+             
+             .test11.test22{
+                 visibility: hidden;
+             }
+             .test11:hover.test22{
+                visibility: visible;
+             }
+             #back{
+                display: flex;
+                justify-content: space-between;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 20px;
              }
         </style>
     </head>
     <body>
-        <h4 id="spage">Search</h4>
-        <!-- ul id='list'>
-            <li><a>Image</a></li>
-            <li><a>Advanced</a></li>
-        < /ul--> 
+        <div id="back">
+            <span>About</span>
+            <span>Search<span>
+        </div>
         <h1 id="main"><span style="color:blue;">C</span><span style="color:red;">S</span><span style="color:yellow;">5</span><span style="color:blue;">0</span>
             <span style="color:green;">S</span><span style="color:red;">e</span><span style="color:blue;">a</span><span style="color:yellow;">r</span><span style="color:green;">c</span><span style="color:red;">h</span>
         </h1>
@@ -64,5 +73,6 @@
                 <input class="cbox" type="submit" value="Google Search">
                 <input class="cbox" type="submit" value="I'm Feeling Lucky">
             </div>
+        </form>
     </body>
 </html>
