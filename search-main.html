@@ -42,6 +42,12 @@
             #btn{
                  text-align: center;
              }
+
+             .btn{
+                 font-size: 20px;
+                 margin-top: 20px;
+                 padding: 10px;
+             }
              
             #container{
                 display: flex;
@@ -64,11 +70,11 @@
             <span style="color:green;">S</span><span style="color:red;">e</span><span style="color:blue;">a</span><span style="color:yellow;">r</span><span style="color:green;">c</span><span style="color:red;">h</span>
         </h1>
         <form id="sbox" action="https://google.com/search">
-            <input type="text" name="q" class="sbox">     
+            <input type="text" name="q" class="sbox"><br>     
             <div id="btn">
-                <input class="cbox" type="submit" value="Google Search">
-                <input class="cbox" type="submit" value="I'm Feeling Lucky">
-            </div>
+                <button type="submit" class="btn">Google Search</button>
+                <button type="submit" class="btn" name="btnI" value="1">I'm Feeling Lucky</button>
+                </div>
         </form>
     </body>
 </html>
